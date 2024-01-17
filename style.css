@@ -1,0 +1,50 @@
+body{
+    background-color: bisque;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    background-color: rgb(150, 25, 20);
+    color: #fff;
+    height: 65px;
+    width: 108px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: opacity 0.15s;
+
+}
+
+button:hover{
+    opacity:0.7;
+    box-shadow: 5px 5px 15px rgba(33, 33, 33, 0.4);
+}
+
+button:active{
+    opacity: 0.3;
+    box-shadow: 5px 5px 15px rgba(33, 33, 33, 0.2);
+}
+
+.art{
+    height: 10px;
+    width: 10px;
+    background-color: rgba(11, 85, 4, 0.0);
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 
+    20px 0px black, 40px 0px black,
+    10px 10px  black, 20px 10px lightblue, 30px 10px black, 40px 10px lightblue, 50px 10px black,
+    10px 20px black, 20px 20px lightblue,  30px 20px black, 40px 20px lightblue, 50px 20px black,
+    10px 30px black, 20px 30px lightblue, 30px 30px black, 40px 30px lightblue, 50px 30px black,
+    0px 40px black, 10px 40px lightblue, 20px 40px lightblue, 30px 40px lightblue, 40px 40px lightblue, 50px 40px black,
+    -10px 50px black, 0px 50px lightblue, 10px 50px lightblue, 20px 50px lightblue, 30px 50px lightblue, 40px 50px lightblue, 50px 50px lightblue, 60px 50px black, 70px 50px black, 80px 50px black, 100px 50px black,
+    -10px 60px black, 0px 60px lightblue, 10px 60px lightblue, 20px 60px black, 30px 60px lightblue, 40px 60px lightblue, 50px 60px lightblue, 60px 60px lightblue,70px 60px lightblue, 80px 60px lightblue, 90px 60px black, 100px 60px lightblue, 110px 60px black,
+    -10px 70px black, 0px 70px lightblue, 10px 70px lightblue, 20px 70px black, 30px 70px lightblue, 40px 70px lightblue, 50px 70px lightblue, 60px 70px lightblue, 70px 70px lightblue,  80px 70px lightblue, 90px 70px lightblue, 100px 70px black,
+    -10px 80px black, 0px 80px lightblue, 10px 80px lightblue, 20px 80px lightblue, 30px 80px lightblue, 30px 80px lightblue, 40px 80px lightblue, 50px 80px lightblue, 60px 80px lightblue, 70px 80px lightblue, 80px 80px lightblue, 90px 80px lightblue, 100px 80px black,
+    0px 90px black, 10px 90px black, 20px 90px black, 30px 90px lightblue, 40px 90px lightblue, 50px 90px lightblue, 60px 90px black, 70px 90px black, 80px 90px lightblue, 90px 90px lightblue,100px 90px black,
+    10px 100px black, 20px 100px lightblue, 30px 100px lightblue,40px 100px lightblue, 50px 100px black, 60px 100px black, 70px 100px lightblue, 80px 100px lightblue, 90px 100px lightblue, 100px 100px black,
+    10px 110px black, 20px 110px lightblue, 30px 110px lightblue, 40px 110px black, 50px 110px black, 60px 110px lightblue, 70px 110px lightblue, 80px 110px lightblue, 90px 110px black,
+    10px 120px black, 20px 120px black, 30px 120px black, 50px 120px black, 60px 120px black, 70px 120px black, 80px 120px black
+    ;
+}
